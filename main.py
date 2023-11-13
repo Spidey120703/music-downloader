@@ -104,11 +104,9 @@ if __name__ == '__main__':
             scrollView.hide()
         elif ch == b'\x0d':
             if scrollView.displayed and not scrollView.paused:
-                # scrollView.hide()
                 scrollView.paused = True
                 try_to_download(data[scrollView.option_index])
                 scrollView.paused = False
-                # scrollView.show()
     scrollView.addEventListener('key-input', key_input_handler)
 
     while True:
