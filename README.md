@@ -1,6 +1,8 @@
 # Music Downloader Tool - 音乐下载器
 
-> 本项目参考自![MusicHelper](https://github.com/cwuom/MusicHelper)。
+> 本项目参考自[MusicHelper](https://github.com/cwuom/MusicHelper)。
+
+仅供学习和参考
 
 ## 功能
 
