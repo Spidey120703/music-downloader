@@ -94,7 +94,7 @@ def try_to_download(songEntity):
         try:
             download_file(download_url, 'Songs/' + filename)
         except Exception:
-            print('Could not download...', file=interact.sys.stdout)
+            print('Could not download...', file=interact.sys.stderr)
 
 if __name__ == '__main__':
     scrollView = interact.ScrollView([], bottom_text=lambda conf: '回车下载 "{title}" 的音乐源文件。'.format(**conf), immediate=False)
