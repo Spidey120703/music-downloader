@@ -96,14 +96,3 @@ class ScrollView(event.EventTarget):
         if immediate:
             self.show()
 
-
-
-
-# options = [
-#     '%*d. Option %c' % (2, _ + 1, chr(ord('A') + _)) for _ in range(26)
-# ]
-# options.append('啊按时打发士大夫阿萨啊手动阀阿斯顿法大师傅阿萨发士大夫发啊手动阀阿斯顿发123333342222222535ty98uwgtruhbydtruiefsghtidbvyefjosgtdbfhjditrjeosvasdkfpoasjfiasjofdjasoidfjaosidjfaio;sjdfiosadgxbuch dresuiovdxguhbsrewauicsdvxg chbdresdvxguic xvbdresbdvdvdfxigh bvnxngjh')
-# options.append('123333342222222535ty98uwgtruhbydtruiefsghtidbvyefjosgtdbfhjditrjeosvasdkfpoasjfiasjofdjasoidfjaosidjfaio;sjdfiosadgxbuch dresuiovdxguhbsrewauicsdvxg chbdresdvxguic xvbdresbdvdvdfxigh bvnxngjh')
-
-# scrollView = ScrollView(options)
-# scrollView.show()
